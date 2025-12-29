@@ -8,6 +8,9 @@ An essential Minecraft modpack crafted for modern, high-performance gameplay.
 
 </div>
 
+> [!WARNING]
+> This modpack is currently outdated and scheduled for a complete overhaul.
+
 ## 🎯 Variants
 
 Pantas offers two variants designed for different needs.
@@ -45,5 +48,6 @@ When Minecraft updates (like `1.21.4` ➡ `1.21.5`), the modpack version resets 
 Found a bug, have a suggestion, or need help with an issue? The best way to get support is on our GitHub.
 
 ### Reporting Bugs & Suggesting Features
+
 
 Please open an issue on our [GitHub issue tracker](https://github.com/pantasmc/pantas/issues) for all bug reports, questions, and suggestions.
