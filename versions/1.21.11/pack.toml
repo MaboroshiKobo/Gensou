@@ -1,0 +1,13 @@
+name = "Gensou"
+author = "muhdfdeen"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "27dbbcdb4885598a72e696f94e436ce48f6e27207e11880bda1c43fdb3f9e366"
+
+[versions]
+fabric = "0.18.4"
+minecraft = "1.21.11"
