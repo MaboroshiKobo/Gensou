@@ -1,0 +1,16 @@
+version:4671
+renderClouds:"false"
+renderDistance:10
+simulationDistance:5
+operatorItemsTab:true
+showSubtitles:true
+directionalAudio:true
+darkMojangStudiosBackground:true
+chatOpacity:0.75
+chatLineSpacing:0.05
+textBackgroundOpacity:0.25
+tutorialStep:none
+skipMultiplayerWarning:true
+joinedFirstServer:true
+key_zoomify.key.zoom:key.keyboard.c
+key_zoomify.key.zoom.secondary:key.keyboard.unknown
