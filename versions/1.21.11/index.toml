@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "60be5137b4733ab1c000e4a240a2d221d956e30eb38985141f6d5e2dea60115d"
+hash = "1c04d253d82f5f7fa93ab54641be4a0e87e12db611e638eda32306072454258f"
 
 [[files]]
 file = "mods/appleskin.pw.toml"

@@ -6,9 +6,8 @@ operatorItemsTab:true
 showSubtitles:true
 directionalAudio:true
 darkMojangStudiosBackground:true
-chatOpacity:0.75
 chatLineSpacing:0.05
-textBackgroundOpacity:0.25
+textBackgroundOpacity:0.4
 tutorialStep:none
 skipMultiplayerWarning:true
 joinedFirstServer:true
