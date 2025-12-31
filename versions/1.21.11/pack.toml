@@ -1,12 +1,12 @@
 name = "Gensou"
-author = "Maboroshi Kobo"
+author = "Maboroshi"
 version = "1.21.11-1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c138910ac10f20656f1433b4648236ef1a5100a1d3053c561a5767cb6cd9f4c4"
+hash = "c74a065c1ed17d9500cd361f7059855ad72595c3984d0fc839fe130ba8498d3a"
 
 [versions]
 fabric = "0.18.4"

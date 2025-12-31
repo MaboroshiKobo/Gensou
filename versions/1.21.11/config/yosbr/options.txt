@@ -11,5 +11,4 @@ textBackgroundOpacity:0.4
 tutorialStep:none
 skipMultiplayerWarning:true
 joinedFirstServer:true
-key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.zoom.secondary:key.keyboard.unknown
