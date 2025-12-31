@@ -1,6 +1,6 @@
 name = "Gensou"
 author = "Maboroshi Kobo"
-version = "1.0.0-SNAPSHOT"
+version = "1.21.11-1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
