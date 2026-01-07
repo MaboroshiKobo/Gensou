@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/yosbr/config/NoChatReports/NCR-Client.json"
+hash = "2b2d4eff6a2166d4d2c48a596c5745d5c0936859644ad182ed27b393c8ad7f42"
+
+[[files]]
 file = "config/yosbr/options.txt"
-hash = "09c16fb6c55b0370613a6b003b6984a3f2e5695d94d62483940d3b0c5679b032"
+hash = "52b47bd472ce8dbea1682ce9ac56095bf4d840b830f70230eb5a4c9d13c3799e"
 
 [[files]]
 file = "mods/appleskin.pw.toml"
@@ -12,6 +16,11 @@ metafile = true
 [[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "b72d00d529ec694ae354b73f6b36d4ec2b830c60c05cc31f46d00ac7ddf8a26b"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
+hash = "5e097f95b8818e0999b4e867351745441f90c9bcf2a9c68cd19d5d708da4a4a1"
 metafile = true
 
 [[files]]
@@ -36,7 +45,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "a89555e4ccf7ba3541cae70de8e1c11b007a50993f3b7ffc490932029ed8fdf5"
+hash = "af8dc072b8d618de96260fccfa5fab7f79c5ca9679bc3a57473f6df4ce218fff"
 metafile = true
 
 [[files]]
@@ -56,7 +65,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "7adc0d54f139075d8f90dae18ca476753cc3145a70e09c9327736024adfe9b30"
+hash = "39b4f43a271700276ff1ae632cf05f90b85f79670d955b50ced036e363a0efe9"
 metafile = true
 
 [[files]]
@@ -91,7 +100,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "53ca4dd806e6ae6b3d72d7707ff59c30bb6b07b7f9c2b0a2a82534c0ecfb78c4"
+hash = "21caf1cc09d510a23284e704cb5211408085d5964e5d6ca129fc0dc175c8fb79"
 metafile = true
 
 [[files]]
@@ -106,7 +115,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "50b08eb66648123e457d2d8c6a14a428accf4d780b98ce551e1a518424faa64c"
+hash = "67116d1cf5d38dfd27aded9d675afcc625d720a4d457660ff82db760934d9f4d"
 metafile = true
 
 [[files]]
@@ -146,7 +155,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "0cbc900ae05bdd88801539eeee6b95dde99426f1d5c2c7c8c194e5f78bbd6e52"
+hash = "9ff1a261860fcb16a7c7f124d738abcdfc1297363412d237540685003ff04d6b"
 metafile = true
 
 [[files]]
@@ -157,6 +166,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "dd8c7eed10a3639d76595603142e1d18f6d26262747138c9442d70311006be5e"
+metafile = true
+
+[[files]]
+file = "mods/symbol-chat.pw.toml"
+hash = "51cffb97040d4f52ca24a552d7c4bb2b6be1521e65109946233a67fa9792a17b"
 metafile = true
 
 [[files]]

@@ -1,6 +1,7 @@
 version:4671
+graphicsPreset:"custom"
 renderClouds:"false"
-renderDistance:10
+renderDistance:8
 simulationDistance:5
 operatorItemsTab:true
 showSubtitles:true
