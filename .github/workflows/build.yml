@@ -1,0 +1,72 @@
+name: Build & Release
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      artifact-name: ${{ steps.upload.outputs.artifact-id }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: 1.23
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Build modpack
+        run: |
+          cd versions/${{ vars.MC_VERSION }}
+          packwiz refresh
+          packwiz mr export
+          mv *.mrpack ../../
+
+      - name: Upload artifact
+        id: upload
+        uses: actions/upload-artifact@v6
+        with:
+          name: Gensou
+          path: "*.mrpack"
+
+  publish:
+    needs: build
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v7
+        with:
+          name: Gensou
+          path: .
+
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "*.mrpack"
+
+      - name: Publish to Modrinth
+        uses: HSGamer/action-mcreleaser@main
+        with:
+          files: "*.mrpack"
+        env:
+          NAME: ${{ github.event.release.tag_name }}
+          VERSION: ${{ github.event.release.tag_name }}
+          DESCRIPTION: ${{ github.event.release.body }}
+          GAME_VERSIONS: ${{ vars.MC_VERSION }}
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          MODRINTH_PROJECT: bLgxf5wm
+          MODRINTH_LOADERS: "fabric"
