@@ -2,9 +2,9 @@ name: Build & Release
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "1.*" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "1.*" ]
   release:
     types: [published]
 
@@ -30,10 +30,10 @@ jobs:
 
       - name: Build modpack
         run: |
-          cd versions/${{ vars.MC_VERSION }}
+          cd pack
           packwiz refresh
           packwiz mr export
-          mv *.mrpack ../../
+          mv *.mrpack ../
 
       - name: Upload artifact
         id: upload
