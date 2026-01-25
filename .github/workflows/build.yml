@@ -66,7 +66,7 @@ jobs:
           NAME: ${{ github.event.release.tag_name }}
           VERSION: ${{ github.event.release.tag_name }}
           DESCRIPTION: ${{ github.event.release.body }}
-          GAME_VERSIONS: ${{ vars.MC_VERSION }}
+          GAME_VERSIONS: "1.21.11"
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
           MODRINTH_PROJECT: bLgxf5wm
           MODRINTH_LOADERS: "fabric"
