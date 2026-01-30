@@ -1,12 +1,12 @@
 name = "Gensou"
 author = "Maboroshi"
-version = "1.21.11-2.0.1"
+version = "1.21.11-2.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7b3913421c706bc8b9fb2c27ea3602d8372db13b1e0d7b5443e403558e11149b"
+hash = "4dffecc803c936b41f19c2d1c7b6eb076a7b485eaa21d2c55c587a9b728c4c99"
 
 [versions]
 fabric = "0.18.4"
