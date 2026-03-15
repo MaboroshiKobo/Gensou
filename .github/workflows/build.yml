@@ -39,8 +39,8 @@ jobs:
         id: upload
         uses: actions/upload-artifact@v7
         with:
-          name: Gensou
           path: "*.mrpack"
+          archive: false
 
   publish:
     needs: build
