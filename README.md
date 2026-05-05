@@ -23,11 +23,11 @@ Each release uses this pattern: **Minecraft Version** + **Modpack Version**
 - **Minor** `x.?.x` - Configuration updates, setting adjustments, or smaller mod changes  
 - **Patch** `x.x.?` - Mod updates with minimal impact, bug fixes, or maintenance
 
-Example Version Format: `1.21.11-1.0.0`
+Example Version Format: `26.1.2-1.0.0`
 
 ### New Minecraft Versions
 
-When Minecraft updates (like `1.21.10` ➡ `1.21.11`), the modpack version resets to `1.0.0` to start fresh with the new base.
+When Minecraft updates (like `26.1.1` ➡ `26.1.2`), the modpack version resets to `1.0.0` to start fresh with the new base.
 
 ## 🛠️ Support & Feedback
 
