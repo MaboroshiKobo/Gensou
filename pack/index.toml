@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/chatpatches.json"
+hash = "e4eb89400bab396af157044708d0246cc89acd5726f65afbdfed1ca2f847508a"
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "8e6033c2642308835d119a073fdf24306394cdb6985c482a08e67b8087f6e90d"
 metafile = true
@@ -26,11 +30,6 @@ hash = "7203e9f6be9f06cfa9a6ea9f1c6d8a7f3934f2568c0f2576cb4ca67411f5f7c3"
 metafile = true
 
 [[files]]
-file = "mods/clientsort.pw.toml"
-hash = "b7efff6c165f411865a05d0420ffc33157a8b12078a4f00a20d6131c0e531a56"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
 metafile = true
@@ -53,11 +52,6 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "db13dae82b68302f3c545fa4893e21086e8809d4b01f3f1c7561309041101b4d"
-metafile = true
-
-[[files]]
-file = "mods/exploitpreventer.pw.toml"
-hash = "d73bd6c081f1c1c20b0287c4b8a058cc7aa63edd5adbbabcd530edcfd03ed3f1"
 metafile = true
 
 [[files]]
@@ -118,6 +112,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "5df4a212f7297545920f3e69aa8a9b2e9df8dfad2e35c5a5fb1485c5a2b0ba84"
+metafile = true
+
+[[files]]
+file = "mods/resourcify.pw.toml"
+hash = "b347f34e766d41c30223c28b79a48d750bad458a44644fd01b8e0b6f86cafaed"
 metafile = true
 
 [[files]]
