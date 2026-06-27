@@ -1,54 +1,50 @@
-<div align=center>
+<div align="center">
+  <!-- <img src="./assets/images/logo.png" width="180" alt="Gensou Logo" /> -->
+  <h1>Gensou</h1>
+  <p>A lean, zero-bloat, high-FPS Fabric modpack optimized for multiplayer that just works. Comes with proximity chat, controller support, and Sodium performance out of the box.</p>
 
-<img src="./assets/images/logo.png" width="50%">
+  <p>
+    <img alt="fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">
+  </p>
 
----
+  <p>
+    <a href="https://github.com/MaboroshiKobo/Gensou"><img alt="github" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg"></a>
+    <a href="https://modrinth.com/modpack/gensou"><img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg"></a>
+  </p>
 
-**A lightweight Fabric modpack for the modern multiplayer experience.**
-
-Gensou balances high-end performance with essential quality-of-life utilities. Originally built for my friends, it serves as a "ready-to-play" setup for anyone wanting a clean, frictionless client.
-
+  <p>
+    <a href="https://docs.maboroshi.org"><img alt="generic" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/generic_vector.svg"></a>
+    <a href="https://discord.maboroshi.org"><img alt="discord-singular" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-singular_vector.svg"></a>
+  </p>
 </div>
 
-## ✨ Core Philosophy
+Gensou boosts your FPS without stripping away the features that make modern Minecraft playable. Originally put together just for my friends, it serves as a pre-configured, "ready-to-play" client for anyone who wants a clean setup without the headache of building a mod list from scratch.
 
-Gensou is designed as a solid, no-nonsense foundation. Rather than throwing in every possible optimization and visual parity mod, it just includes the performance and quality-of-life mods that actually make a difference for a smooth session. The goal is to avoid heavy cosmetic bloat to keep load times fast and framerates high.
+### Features
 
-## 🚀 Features
-
-* Aggressive client-side performance optimization using Sodium, Lithium, and FerriteCore.
-* Seamless multiplayer communication with Simple Voice Chat included out of the box.
-* Native controller support via Controlify.
-* Frictionless inventory management with Client Sort.
-* Borderless windowed mode support for easy multitasking without minimizing the game.
-* Extended render distances on servers using Bobby.
+* Squeezes every last drop of FPS out of your hardware using Sodium, Lithium, and FerriteCore so your game actually runs smoothly.
+* Includes Simple Voice Chat right out of the box, making it effortless to jump onto a server and start talking to your friends instantly.
+* Features native controller support through Controlify if you'd rather sit back and play with a controller instead of a keyboard.
+* Cleans up your inventory clutter with a single click using Client Sort, keeping things organized without the manual hassle.
+* Adds proper borderless windowed mode so you can alt-tab to Discord or look up a recipe without the game freezing or minimizing.
+* Caches chunks using Bobby, letting you see way past the server's default render distance limit.
 
 ### Resource Packs & OptiFine Parity
 
-To maintain maximum performance, Gensou does not include OptiFine parity mods (like EMF, ETF, or OptiGUI) by default. If you wish to use resource packs that require custom entity models (such as Fresh Animations) or custom GUIs, you can easily add those specific mods to your `mods` folder manually.
+To keep the pack running as fast as possible, Gensou doesn't include OptiFine replacement mods (like EMF, ETF, or OptiGUI) by default. If you use custom resource packs that require special entity models (like Fresh Animations) or fancy custom GUIs, you can easily drop those specific mods into your `mods` folder manually.
 
-## 📋 Release Versioning
+## Versioning
 
-Gensou follows a structured versioning approach to help you understand what's changed between releases.
+Gensou uses a straightforward pattern to show exactly what's changed between updates:
 
-### Modpack Version Numbers
+**Minecraft Version + Modpack Version** (Example: `26.1.2-1.0.0`)
 
-Each release uses this pattern: Minecraft Version + Modpack Version
+* Major (`?.x.x`) - Big changes, like adding new mods or removing existing ones.
+* Minor (`x.?.x`) - Config tweaks, setting adjustments, or smaller mod swaps.
+* Patch (`x.x.?`) - Basic mod updates, quick bug fixes, or routine maintenance.
 
-* Major `?.x.x` - Significant changes like new mod additions or removals
-* Minor `x.?.x` - Configuration updates, setting adjustments, or smaller mod changes  
-* Patch `x.x.?` - Mod updates with minimal impact, bug fixes, or maintenance
+When Minecraft gets a major update, the modpack version resets to `1.0.0` so we can start fresh on the new game version.
 
-Example Version Format: `1.21.11-1.0.0`
+### Documentation & Support
 
-### New Minecraft Versions
-
-When Minecraft updates, the modpack version resets to `1.0.0` to start fresh with the new base.
-
-## 🛠️ Support & Feedback
-
-Found a bug, have a suggestion, or need help with an issue? The best way to get support is on our GitHub.
-
-### Reporting Bugs & Suggesting Features
-
-Please open an issue on our [GitHub issue tracker](https://github.com/MaboroshiKobo/Gensou/issues) for all bug reports, questions, and suggestions.
+For a complete guide on features, commands, and configuration, please visit our [wiki](https://docs.maboroshi.org). If you have questions or need to report a bug, join our [Discord server](https://discord.maboroshi.org).
