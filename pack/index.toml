@@ -1,17 +1,13 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/chatpatches.json"
-hash = "e4eb89400bab396af157044708d0246cc89acd5726f65afbdfed1ca2f847508a"
-
-[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "8e6033c2642308835d119a073fdf24306394cdb6985c482a08e67b8087f6e90d"
 metafile = true
 
 [[files]]
 file = "mods/bettergrassify.pw.toml"
-hash = "3d368f9b35d7824282bd8f988cfa678c22dcdb82bb26c4565398f01f91820f31"
+hash = "bf2ddf048cc30ccc6bfd35c87c93d8d86855b48180254703a7db994847515104"
 metafile = true
 
 [[files]]
@@ -21,12 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/cape-provider.pw.toml"
-hash = "b4cfd65678e2d07489b41aefc2e126baad29deb4b7e093cbb2116b3c45caa60d"
-metafile = true
-
-[[files]]
-file = "mods/chatpatches.pw.toml"
-hash = "7203e9f6be9f06cfa9a6ea9f1c6d8a7f3934f2568c0f2576cb4ca67411f5f7c3"
+hash = "006c4998cec5c1232c2f3076508cd4b53f1a12206f40df2d0d0b005ea4675cdb"
 metafile = true
 
 [[files]]
@@ -36,12 +27,12 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "dec7b23e7a1286bdaacbe75e77b087b0f7e3ca4bc3289570eccf57712da70610"
+hash = "6aa10fc79473438fdb09361c93e4e6f13a9118ec571953950bb0c859e300b8ed"
 metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "047f529b7339b37e9fa57559876f27023b77d4a5dc9c0c2c525e5681f147b423"
+hash = "0ce45d33b7d9469f5fba9047a34daaee2d36ace08b4652ba1e32bb3e8c436d71"
 metafile = true
 
 [[files]]
@@ -51,17 +42,17 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "db13dae82b68302f3c545fa4893e21086e8809d4b01f3f1c7561309041101b4d"
+hash = "aea5ea551600e691b75fac9dfa02670dc70903d732746d90e0c3711b2e6c564a"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "8623809fe6a60aa6b9ae6358bf2796742847e8641e1cc27bc3886484125ed6be"
+hash = "cab10ce7de1bd313d5dc6753f402f1123ff7571373ef185675c862e7cbf4369e"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "337d97b990f76c91584b12600651ae7bd47a0824e45070b3d9330b0922149fc0"
+hash = "9d37d326d9557fdd25c97d72ac1bbd1e74c524aa5dca437a91d0de645dff6545"
 metafile = true
 
 [[files]]
@@ -76,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "3c167684e793c842cb1128475e4cac35f96ab45729e4946ae989e551ac264f5c"
+hash = "592dd4f9cbed1762711ec05e5bb3b7b20f3d16a6df4ef20aba8461bef28f7232"
 metafile = true
 
 [[files]]
@@ -91,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "f70d8ec7c871ad284b1e155c7a8a8461edc00c7b1ddecec0c10f212f77911376"
+hash = "cd37520fbb14b8d5e9471d8c25324736e02dcf3be4b7c5df1699757b2264049f"
 metafile = true
 
 [[files]]
@@ -101,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "94768827963a3c80fffa06fbbf9d1c2cbae436c1ef83074d01221f1259f7cf55"
+hash = "3cc0488195b6c6b8069e8b998db711f75829dc5e2385c45be17083ce86214303"
 metafile = true
 
 [[files]]
@@ -111,12 +102,12 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "5df4a212f7297545920f3e69aa8a9b2e9df8dfad2e35c5a5fb1485c5a2b0ba84"
+hash = "ebe917fde984b2b44139c02c36886452d529989677a0639c21688290c00a1d67"
 metafile = true
 
 [[files]]
 file = "mods/resourcify.pw.toml"
-hash = "b347f34e766d41c30223c28b79a48d750bad458a44644fd01b8e0b6f86cafaed"
+hash = "08505009cdc11e3c104bf7d1da0d452021eed8ee31f969dab700ac8d1c62206b"
 metafile = true
 
 [[files]]
@@ -126,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "a2e9d2e08cb39c159b50ab8a0a2c38896700f7ab66a7682d691dd91628b4b34d"
+hash = "e0fd4f6062972d51fd78d9116cb61f1505c56a1dccfb64ae16453b5faff605e8"
 metafile = true
 
 [[files]]
@@ -136,10 +127,10 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "e5278cc1dcda4fe789eaf05318fa5885f9f3412685f8ac231fe9a395409089e0"
+hash = "e785257258e2811dc4488da78ae8311a249b22c3bdba92b4d6ce5d5ef48939b7"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "51a17d028bf0d35c66d269185a63ea4adc968f60727454d0f8ed3ef2138f8612"
+hash = "e212db98871e5d51f2015f3134090353cec414333af3ba2e6015b8c642f5267b"
 metafile = true
