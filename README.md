@@ -1,7 +1,7 @@
 <div align="center">
   <!-- <img src="./assets/images/logo.png" width="180" alt="Gensou Logo" /> -->
   <h1>Gensou</h1>
-  <p>A lean, zero-bloat, high-FPS Fabric modpack optimized for multiplayer that just works. Comes with proximity chat, controller support, and Sodium performance out of the box.</p>
+  <p>A streamlined, high-FPS Fabric modpack optimized for multiplayer. Comes with proximity chat, controller support, and Sodium performance out of the box.</p>
 
   <p>
     <img alt="fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">
@@ -18,14 +18,13 @@
   </p>
 </div>
 
-Gensou boosts your FPS without stripping away the features that make modern Minecraft playable. Originally put together just for my friends, it serves as a pre-configured, "ready-to-play" client for anyone who wants a clean setup without the headache of building a mod list from scratch.
+Gensou boosts your FPS without stripping away the features that make multiplayer Minecraft playable. Originally put together to give friends a "ready-to-play" experience on modern public servers, it serves as a clean setup without the hassle of creating a modpack from scratch.
 
 ### Features
 
 * Squeezes every last drop of FPS out of your hardware using Sodium, Lithium, and FerriteCore so your game actually runs smoothly.
 * Includes Simple Voice Chat right out of the box, making it effortless to jump onto a server and start talking to your friends instantly.
 * Features native controller support through Controlify if you'd rather sit back and play with a controller instead of a keyboard.
-* Cleans up your inventory clutter with a single click using Client Sort, keeping things organized without the manual hassle.
 * Adds proper borderless windowed mode so you can alt-tab to Discord or look up a recipe without the game freezing or minimizing.
 * Caches chunks using Bobby, letting you see way past the server's default render distance limit.
 
