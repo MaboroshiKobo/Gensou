@@ -58,7 +58,7 @@ jobs:
           files: "*.mrpack"
 
       - name: Publish to Modrinth
-        uses: HSGamer/action-mcreleaser@main
+        uses: HSGamer/MCReleaser@master
         with:
           files: "*.mrpack"
         env:
