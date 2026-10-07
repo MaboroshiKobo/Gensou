@@ -1,0 +1,13 @@
+name = "Longer Chat History"
+filename = "LongerChatHistory-fabric-1.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/f4P7fNKN/versions/2P1UQ6nC/LongerChatHistory-fabric-1.9.jar"
+hash-format = "sha512"
+hash = "246de3eede80c9d276ff5dd39940c655cab758a2d4767226d8d670be414ac92f1b329b3df0b942e1f42e5b90b3ce6944ce19e70a0161a982423769199ce4bcce"
+
+[update]
+[update.modrinth]
+mod-id = "f4P7fNKN"
+version = "2P1UQ6nC"

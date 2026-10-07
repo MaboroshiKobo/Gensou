@@ -1,7 +1,7 @@
 <div align="center">
   <!-- <img src="./assets/images/logo.png" width="180" alt="Gensou Logo" /> -->
   <h1>Gensou</h1>
-  <p>A streamlined, high-FPS Fabric modpack optimized for multiplayer. Comes with proximity chat, controller support, and Sodium performance out of the box.</p>
+  <p>A clean, high-performance Fabric client built for modern multiplayer. Full resource pack parity, proximity voice chat, and extended view distance out of the box.</p>
 
   <p>
     <img alt="fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">
@@ -18,32 +18,29 @@
   </p>
 </div>
 
-Gensou boosts your FPS without stripping away the features that make multiplayer Minecraft playable. Originally put together to give friends a "ready-to-play" experience on modern public servers, it serves as a clean setup without the hassle of creating a modpack from scratch.
+Gensou is a focused client designed to give players a smooth, complete visual experience on modern multiplayer servers without the bloat of kitchen-sink modpacks. It pairs modern rendering optimizations with full support for custom resource packs, server voice chat, and extended render distances.
 
 ### Features
 
-* Squeezes every last drop of FPS out of your hardware using Sodium, Lithium, and FerriteCore so your game actually runs smoothly.
-* Includes Simple Voice Chat right out of the box, making it effortless to jump onto a server and start talking to your friends instantly.
-* Features native controller support through Controlify if you'd rather sit back and play with a controller instead of a keyboard.
-* Adds proper borderless windowed mode so you can alt-tab to Discord or look up a recipe without the game freezing or minimizing.
-* Caches chunks using Bobby, letting you see way past the server's default render distance limit.
-
-### Resource Packs & OptiFine Parity
-
-To keep the pack running as fast as possible, Gensou doesn't include OptiFine replacement mods (like EMF, ETF, or OptiGUI) by default. If you use custom resource packs that require special entity models (like Fresh Animations) or fancy custom GUIs, you can easily drop those specific mods into your `mods` folder manually.
+* High-performance rendering pipeline powered by Sodium, Lithium, and FerriteCore for high frame rates and low memory consumption.
+* Native shader support and full OptiFine resource pack parity, including custom entity models (EMF), random entity textures (ETF), connected textures (Continuity), custom container GUIs (OptiGUI), and custom skies (Skyboxify).
+* Local chunk caching with Bobby, allowing you to see far beyond restrictive server-side render distance limits.
+* Built-in Simple Voice Chat integration for instant proximity audio on supported servers.
+* Practical quality-of-life additions including extended chat scrollback, faster server list polling, and clean hunger/saturation displays.
+* Zero gameplay alterations, controller frameworks, or unnecessary background tools.
 
 ## Versioning
 
-Gensou uses a straightforward pattern to show exactly what's changed between updates:
+Gensou follows a structured release pattern:
 
-**Minecraft Version + Modpack Version** (Example: `26.1.2-1.0.0`)
+**Minecraft Version + Modpack Version** (Example: `26.3-1.0.0`)
 
-* Major (`?.x.x`) - Big changes, like adding new mods or removing existing ones.
-* Minor (`x.?.x`) - Config tweaks, setting adjustments, or smaller mod swaps.
-* Patch (`x.x.?`) - Basic mod updates, quick bug fixes, or routine maintenance.
+* Major (`?.x.x`) - Mod additions, structural removals, or engine upgrades.
+* Minor (`x.?.x`) - Configuration updates, mod swaps, or behavioral adjustments.
+* Patch (`x.x.?`) - Dependency updates and stability fixes.
 
-When Minecraft gets a major update, the modpack version resets to `1.0.0` so we can start fresh on the new game version.
+When Minecraft receives a major version release, the modpack version resets to `1.0.0`.
 
 ### Documentation & Support
 
-For a complete guide on features, commands, and configuration, please visit our [wiki](https://docs.maboroshi.org). If you have questions or need to report a bug, join our [Discord server](https://discord.maboroshi.org).
+For setup details and troubleshooting, check out the [documentation](https://docs.maboroshi.org) or visit the [Discord community](https://discord.maboroshi.org).
