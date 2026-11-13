@@ -1,8 +1,6 @@
-<div align="center">
-  <!-- <img src="./assets/images/logo.png" width="180" alt="Gensou Logo" /> -->
-  <h1>Gensou</h1>
-  <p>A clean, high-performance Fabric client built for modern multiplayer. Full resource pack parity, proximity voice chat, and extended view distance out of the box.</p>
+[![Gensou Banner](https://raw.githubusercontent.com/MaboroshiKobo/branding/refs/heads/main/projects/gensou/banners/gensou_2048.png)](https://docs.maboroshi.org/projects/gensou)
 
+<div align="center">
   <p>
     <img alt="fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">
   </p>
@@ -13,34 +11,42 @@
   </p>
 
   <p>
-    <a href="https://docs.maboroshi.org"><img alt="generic" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/generic_vector.svg"></a>
-    <a href="https://discord.maboroshi.org"><img alt="discord-singular" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-singular_vector.svg"></a>
+    <a href="https://docs.maboroshi.org/projects/gensou"><img alt="generic" height="56" src="https://raw.githubusercontent.com/MaboroshiKobo/branding/refs/heads/main/socials/128x/domain_icon_bg.png"></a>
+    <a href="https://discord.maboroshi.org"><img alt="discord-singular" height="56" src="https://raw.githubusercontent.com/MaboroshiKobo/branding/refs/heads/main/socials/128x/discord_icon_bg.png"></a>
   </p>
 </div>
 
-Gensou is a focused client designed to give players a smooth, complete visual experience on modern multiplayer servers without the bloat of kitchen-sink modpacks. It pairs modern rendering optimizations with full support for custom resource packs, server voice chat, and extended render distances.
+## High-performance rendering, full resource pack parity, and proximity voice chat
 
-### Features
+Gensou is a clean, lightweight Fabric modpack built to deliver a smooth, complete visual experience on modern multiplayer servers without the bloat of kitchen-sink packs. Pair modern rendering and input optimizations with full OptiFine resource pack support, local chunk caching, and built-in proximity voice chat right out of the box.
 
-* High-performance rendering pipeline powered by Sodium, Lithium, and FerriteCore for high frame rates and low memory consumption.
-* Native shader support and full OptiFine resource pack parity, including custom entity models (EMF), random entity textures (ETF), connected textures (Continuity), custom container GUIs (OptiGUI), and custom skies (Skyboxify).
-* Local chunk caching with Bobby, allowing you to see far beyond restrictive server-side render distance limits.
-* Built-in Simple Voice Chat integration for instant proximity audio on supported servers.
-* Practical quality-of-life additions including extended chat scrollback, faster server list polling, and clean hunger/saturation displays.
-* Zero gameplay alterations, controller frameworks, or unnecessary background tools.
+## Features
+
+- Maximize frame rates, cut memory usage, and eliminate high-polling mouse stutter with Sodium, Lithium, FerriteCore, and Ixeris.
+- Run shaders natively with Iris and enjoy full OptiFine resource pack parity via EMF, ETF, ESF, Continuity, OptiGUI, Polytone, Puzzle, and Skyboxify.
+- See far beyond restrictive server-side render distance limits using local chunk caching powered by Bobby.
+- Communicate seamlessly on supported servers with built-in Simple Voice Chat integration.
+- Reload resource packs and switch languages asynchronously without freezing your client using Remove Reloading Screen and Language Reload.
+- Keep gameplay pure with practical quality-of-life tweaks like extended chat history, faster server list pings, and hunger/saturation overlays.
 
 ## Versioning
 
-Gensou follows a structured release pattern:
+Gensou follows a structured release pattern combining the target Minecraft version with the modpack version (`Minecraft Version-Modpack Version`, such as `26.3-3.0.0`):
 
-**Minecraft Version + Modpack Version** (Example: `26.3-1.0.0`)
-
-* Major (`?.x.x`) - Mod additions, structural removals, or engine upgrades.
-* Minor (`x.?.x`) - Configuration updates, mod swaps, or behavioral adjustments.
-* Patch (`x.x.?`) - Dependency updates and stability fixes.
+- Major (`?.x.x`) - Mod additions, structural removals, or engine upgrades.
+- Minor (`x.?.x`) - Configuration updates, mod swaps, or behavioral adjustments.
+- Patch (`x.x.?`) - Dependency updates and stability fixes.
 
 When Minecraft receives a major version release, the modpack version resets to `1.0.0`.
 
-### Documentation & Support
+## Documentation & Support
 
-For setup details and troubleshooting, check out the [documentation](https://docs.maboroshi.org) or visit the [Discord community](https://discord.maboroshi.org).
+For setup guides, mod lists, and configuration details, check out our [wiki](https://docs.maboroshi.org/projects/gensou). For bugs, questions, or updates, visit our [Discord server](https://discord.maboroshi.org) or open a [GitHub Issue](https://github.com/MaboroshiKobo/Gensou/issues).
+
+## Building
+
+To export a Modrinth `.mrpack` archive from source, ensure you have [packwiz](https://packwiz.infra.link/) installed and run:
+
+```bash
+cd pack && packwiz modrinth export
+```
